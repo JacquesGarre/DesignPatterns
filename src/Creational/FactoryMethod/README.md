@@ -10,7 +10,3 @@
 
 **Scalability**: This implementation makes it easy to add new types in the future.
 - If you want to add a new device in the system, like a `Screen` or a `UsbKey` for instance, you simply need to create a new factory class that extends `AbstractDeviceFactory` and implements the `create()` method to return the new device type. This promotes scalability and extensibility in your codebase.
-
-**Code Reusability & Consistency**: 
-- By encapsulating the creation logic within factory classes, code reusability is promoted. If multiple parts of the system need to create instances of devices, they can all use the same factory classes. This reduces code duplication and promotes a cleaner, more maintainable codebase.
-- Using factory methods ensures that objects are created consistently across the system. The creation logic is centralized within the factory classes, which helps maintain a uniform approach to object creation and ensures that objects are initialized correctly.
