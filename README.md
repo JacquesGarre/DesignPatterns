@@ -15,6 +15,8 @@ In each design pattern folder, you can finally find the related php code, and a 
 **[Creational](https://github.com/JacquesGarre/DesignPatterns/tree/main/src/Creational)**
  - [FactoryMethod](https://github.com/JacquesGarre/DesignPatterns/tree/main/src/Creational/FactoryMethod)
 	 - provides an interface for creating objects in a superclass, but allows subclasses to alter the type of objects that will be created.
+ - [AbstractFactory](https://github.com/JacquesGarre/DesignPatterns/tree/main/src/Creational/AbstractFactory)
+	 - provides an interface for creating families of related or dependent objects without specifying their concrete classes.
 
 **[Structural](https://github.com/JacquesGarre/DesignPatterns/tree/main/src/Structural)**
 
