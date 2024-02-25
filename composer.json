@@ -12,12 +12,7 @@
         }
     ],
     "scripts": {
-        "unit": "vendor/bin/phpunit tests/",
-        "lint": "vendor/bin/phpcs --standard=PSR12 src/",
-        "start": [
-            "@unit",
-            "@lint"
-        ]
+        "lint": "vendor/bin/phpcs --standard=PSR12 src/"
     },
     "require": {
         "php":">=8.3",
