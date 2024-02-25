@@ -1,0 +1,27 @@
+{
+    "name": "jaks/design-patterns",
+    "autoload": {
+        "psr-4": {
+            "Jaks\\DesignPatterns\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Jacques Garre",
+            "email": "jcqs.gr@gmail.com"
+        }
+    ],
+    "scripts": {
+        "unit": "vendor/bin/phpunit tests/",
+        "lint": "vendor/bin/phpcs --standard=PSR12 src/",
+        "start": [
+            "@unit",
+            "@lint"
+        ]
+    },
+    "require": {
+        "php":">=8.3",
+        "phpunit/phpunit": "^11.0",
+        "squizlabs/php_codesniffer": "^3.9"
+    }
+}
