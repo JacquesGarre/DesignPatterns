@@ -15,5 +15,7 @@ class Client
     public function exampleUsage(): void
     {
         $gallery = $this->artGalleryFactory->createGallery();
+        $painting = $this->artGalleryFactory->createPainting();
+        $drawing = $this->artGalleryFactory->createPainting();
     }
 }

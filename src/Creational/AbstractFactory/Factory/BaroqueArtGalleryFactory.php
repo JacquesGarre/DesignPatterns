@@ -25,9 +25,6 @@ class BaroqueArtGalleryFactory extends AbstractArtGalleryFactory
 
     public function createGallery(): ArtGalleryInterface
     {
-        return new BaroqueArtGallery(
-            $this->createDrawing(),
-            $this->createPainting()
-        );
+        return new BaroqueArtGallery();
     }
 }

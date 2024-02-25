@@ -25,9 +25,6 @@ class RenaissanceArtGalleryFactory extends AbstractArtGalleryFactory
 
     public function createGallery(): ArtGalleryInterface
     {
-        return new RenaissanceArtGallery(
-            $this->createDrawing(),
-            $this->createPainting()
-        );
+        return new RenaissanceArtGallery();
     }
 }
