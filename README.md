@@ -1,11 +1,10 @@
 # Design patterns implementation in PHP
 
 ### Overview
-This repository serves php implementations of every design pattern of the Gang of four, inspired by Refactoring Guru (https://refactoring.guru/design-patterns)
+This repository serves php implementation examples of "Gang of four" design patterns, inspired by Refactoring Guru (https://refactoring.guru/design-patterns)
 
 ### Project structure
-
-In each design pattern folder, a **Client.php** class example demonstrates how to use the implementation, and the benefits of it.
+In every design pattern folder, a **Client.php** class example demonstrates how to use the implementation, and the benefits of it.
 
 **[Creational](https://github.com/JacquesGarre/DesignPatterns/tree/main/src/Creational)**
  - [FactoryMethod](https://github.com/JacquesGarre/DesignPatterns/tree/main/src/Creational/FactoryMethod)
