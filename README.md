@@ -1,4 +1,4 @@
-# Design patterns implementation in PHP
+# Design patterns implementation in PHP [WIP]
 
 ### Overview
 This repository serves php implementation examples of "Gang of four" design patterns, inspired by Refactoring Guru (https://refactoring.guru/design-patterns)
