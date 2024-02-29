@@ -5,7 +5,7 @@
 ### Benefits
 
 **Decoupling**: By introducing factories, you decouple the creation of objects from their usage. 
-- If you look at the `FactoryMethodApp->exampleUsage()` method, the client (`FactoryMethodApp`) can use the `$device` object without actually having to create it. 
+- If you look at the `Client->exampleUsage()` method, the client can use the `$device` object without actually having to create it. 
 - The client doesn't need to know whether it's a `Keyboard` or a `Mouse` object.
 
 **Scalability**: This implementation makes it easy to add new types in the future.
