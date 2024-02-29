@@ -1,4 +1,4 @@
-# Design patterns implementation in PHP
+# Design patterns implementation in PHP (PSR12) [WIP]
 
 ### Overview
 This repository serves php implementations of every design pattern of the Gang of four, inspired by Refactoring Guru (https://refactoring.guru/design-patterns)
@@ -17,6 +17,8 @@ In each design pattern folder, you can finally find the related php code, and a 
 	 - provides an interface for creating objects in a superclass, but allows subclasses to alter the type of objects that will be created.
  - [AbstractFactory](https://github.com/JacquesGarre/DesignPatterns/tree/main/src/Creational/AbstractFactory)
 	 - provides an interface for creating families of related or dependent objects without specifying their concrete classes.
+ - [Builder](https://github.com/JacquesGarre/DesignPatterns/tree/main/src/Creational/Builder)
+	 - lets you construct complex objects step by step.
 
 **[Structural](https://github.com/JacquesGarre/DesignPatterns/tree/main/src/Structural)**
 
